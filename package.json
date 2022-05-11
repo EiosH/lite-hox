@@ -9,12 +9,12 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^4.6.4"
-  },
   "dependencies": {
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "react-reconciler": "^0.25.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.38"
   }
 }
