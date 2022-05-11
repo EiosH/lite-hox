@@ -1,0 +1,20 @@
+{
+  "name": "my-hox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm run build",
+    "build": "esbuild ./demo/index.tsx --outdir='lib'  --target=esnext --bundle --platform=browser --format='esm' --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-reconciler": "^0.25.1"
+  }
+}
